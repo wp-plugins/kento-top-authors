@@ -1,0 +1,74 @@
+
+.top-authors{
+	width: 100%;
+}
+
+.top-authors ol.top-authors-list{
+	list-style: none;
+}
+.top-authors ol.top-authors-list li{
+	display: inline-block;
+	width: 100%;
+	line-height: 45px !important;
+	height: 50px;
+	padding-bottom: 15px;
+
+}
+.top-authors ol.top-authors-list li .top-authors-image{
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+.top-authors ol.top-authors-list li .top-authors-name {
+  font-size: 16px;
+}
+
+/*==========================================
+*************** Style 1 ********************
+===========================================*/
+
+
+
+.top-authors .style1 li .top-authors-image{
+	display: block;
+}
+
+/*==========================================
+*************** Style 2 ********************
+===========================================*/
+
+.top-authors .style2 li {
+	float: left !important;
+	height: 50px ;
+	line-height: 45px !important;
+	margin: 3px;
+	padding-bottom: 0 !important;
+	width: 50px !important;
+}
+.top-authors .style2 li .top-authors-name, .top-authors .style2 li .top-authors-post{
+	display: none;
+}
+
+/*==========================================
+*************** Style 3 ********************
+===========================================*/
+
+.top-authors ol.style3 li{
+	list-style: decimal inside none;
+	height: 30px !important;
+	padding-bottom: 0 !important;	
+	line-height: 35px !important;	
+	display: list-item !important;
+}
+
+
+.top-authors .style3 li .top-authors-image{
+	display: none;
+}
+.top-authors .style3 li .top-authors-post {
+	font-size: 11px;
+	padding-left: 5px;
+}
