@@ -1,5 +1,5 @@
 === Kento Top Author ===
-Contributors: hasanrang05
+Contributors: kentothemes
 Donate link: 
 Tags: top author, author list, top members, members list
 Requires at least: 3.8
